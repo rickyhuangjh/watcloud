@@ -18,7 +18,7 @@ import typing
 
 
 if len(sys.argv) < 2:
-    print("Usage: python3 validate_external_links.py <BASE_URL> [WHITELISTED_URLS_PATH]")
+    print("Usage: python3 validate-external-links.py <BASE_URL> [WHITELISTED_URLS_PATH]")
     sys.exit(1)
 
 WHITELISTED_URLS_PATH = None
